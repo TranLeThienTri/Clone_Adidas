@@ -6,6 +6,61 @@
     margin: 0;
 }
 
+/* Body */
+body{
+    font-family: "Work Sans", sans-serif;
+    text-transform: uppercase;
+    color: #000;
+
+}
+/* Menu */
+#menu ul{
+    list-style-type: none;
+    background: #FFFFFF;
+    text-align: center;
+}
+#menu ul li{
+    color: #f1f1f1;
+    display: inline-table;
+    list-style-type: none;
+    margin-bottom: 10px;
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    float: left;
+}
+#menu ul li a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 0 15px;
+}
+#menu ul li a:hover{
+    background: #f1f1f1;
+    color: #000;
+}
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10px;
+    height: 10px;
+}
+#menu ul li > .sub-menu{
+    display: none;
+    position: absolute;
+}
+
+#menu ul li:hover .sub-menu{
+    display: block;
+}
+h1 {
+    font-size: 120px;
+    padding: 0 20px;
+}
+
 html {
     font-family: "Work Sans", sans-serif;
     width: 100%;
